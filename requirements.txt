@@ -1,0 +1,7 @@
+ipfshttpclient
+pyAesCrypt
+Flask
+Flask-SocketIO
+werkzeug
+requests
+python-socketio
