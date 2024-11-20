@@ -5,3 +5,5 @@ Flask-SocketIO
 werkzeug
 requests
 python-socketio
+blockchain
+pickle-mixin
