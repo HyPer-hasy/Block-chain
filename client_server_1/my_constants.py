@@ -1,7 +1,7 @@
 from flask import Flask
 
-UPLOAD_FOLDER = 'Users/HYPERYASH/Documents/T-B/Blockchain-based-Decentralized-File-Sharing-System-using-IPFS/client_server_1/uploads'
-DOWNLOAD_FOLDER = 'Users/HYPERYASH/Documents/T-B/Blockchain-based-Decentralized-File-Sharing-System-using-IPFS/client_server_1/downloads'
+UPLOAD_FOLDER = 'Users/HYPERYASH/Documents/T-B/Block-chain/client_server_1/uploads'
+DOWNLOAD_FOLDER = 'Users/HYPERYASH/Documents/T-B/Block-chain/client_server_1/downloads'
 
 app = Flask(__name__)
 app.secret_key = "secret key"
@@ -13,3 +13,5 @@ app.config['SERVER_IP'] = '127.0.0.1:5111'
 app.config['NODE_ADDR'] = {'Host' : '0.0.0.0', 'Port' : 5113}
 app.config['BUFFER_SIZE'] = 64 * 1024
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
+
+

@@ -1,7 +1,7 @@
 from flask import Flask
 
-UPLOAD_FOLDER = '/Users/HYPERYASH/Documents/T-B/Blockchain-based-Decentralized-File-Sharing-System-using-IPFS/main_server/uploads'
-DOWNLOAD_FOLDER = 'Users/HYPERYASH/Documents/T-B/Blockchain-based-Decentralized-File-Sharing-System-using-IPFS/main_server/downloads'
+UPLOAD_FOLDER = '/Users/HYPERYASH/Documents/T-B/Block-chain/main_server/uploads'
+DOWNLOAD_FOLDER = 'Users/HYPERYASH/Documents/T-B/Block-chain/main_server/downloads'
 
 app = Flask(__name__)
 app.secret_key = "secret key"
